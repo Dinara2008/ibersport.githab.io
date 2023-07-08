@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text1{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1{
+    margin-right: 800px;
+    margin-bottom: 10px;
+    color: rgb(192, 7, 7);
+    /* box-shadow: 0 0 20px 1px black; */
+    margin-left: 10px;
+}
+
+a:hover{
+    color: white;
+}
+.menu{
+    list-style-type: none;
+    padding-right: 0;
+    margin-right: 0;
+    display:flex;
+    flex-wrap: wrap;
+    
+
+}
+.a{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px 1px black;
+    padding-top: 10px;
+}
+.b{
+    justify-content: center;
+    display: flex;
+    padding-left: 12%;
+    padding-top: 0,90%;
+}
+li{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    display: table;
+    border-radius: 20px;   
+}
+li :hover{
+    background-color: rgb(192, 7, 7) ;
+}
+a{
+    font-weight: bold;
+    font-size: 15px;
+    /* padding-top: 5px;
+    padding-left: 8px; */
+    margin-top: 10px;
+    color: rgb(192, 7, 7);
+    text-decoration: none;
+} 
+.koguvcavis-varazdel {
+    padding: 38px 0;
+    background: #adadad;
+    color: #2f2f2f;
+    text-align: center;
+  }
+  .sestim-donials{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .sectionesag {
+    width: 195px;
+    height: 3px;
+    background: #498a2d;
+    margin: 23px auto;
+  }
+  
+  .sagestim-lonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vemotau-vokusipol{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial {
+    background: #f9f4f4;
+    padding: 28px;
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .gecedanam{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .apogered-gselected{
+    color: #53b32b;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width:960px) {
+  .vemotau-vokusipol{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .vemotau-vokusipol{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+  footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+}
+p{
+    font-size: 20px;
+    /* color: red; */
+}
